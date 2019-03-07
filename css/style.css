@@ -1,0 +1,168 @@
+body{
+    font-family: 'Aleo', serif;
+}
+.card-panel{
+    text-align: center;
+    margin-bottom: 0;
+    color:white;}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top:.75rem;
+}
+h2{
+    text-align: center;
+
+}
+.logo{
+    text-align:center;
+}
+.leftNav{
+    border: 2px solid black;
+
+}
+.mainPanel{background-color: white;}
+
+nav{
+    /*background-color: green;*/
+    margin-top: .75rem;
+    color:white;
+    height:50px;
+    line-height:50px;
+
+}
+nav > ul{
+    margin-left:3rem;
+}
+nav > ul > li > a{
+    text-decoration:underline;
+}
+nav > span{
+    float: right;
+    padding-right:3rem;
+}
+img#headshot{
+    float:left;
+    width:25%;
+    height:25%;
+    margin-right: 2rem;
+    /*padding-left:2rem;*/
+}
+p#bio{
+    font-size:large;
+    margin-top: -2rem;
+    padding-right: 2rem;
+    /*padding-left:2rem;*/
+}
+div.card-panel.red{
+    height:3rem;
+    padding: .8rem;
+    vertical-align: middle!important;
+}
+div.card-panel.green {
+    height:3rem;
+    padding: .8rem;
+    vertical-align: middle!important;
+}
+    div.card-panel.blue{
+        height: 55px;
+        line-height: 55px;
+        vertical-align: middle!important;
+    }
+a{
+    color:white;
+    font-size: large;
+}
+div.cardpanel{
+    margin-bottom:0;
+    vertical-align: middle!important;
+}
+div.row{
+    margin-bottom: 0;
+}
+.card-title{
+    padding-top:.5rem;
+    /*padding-left:.5rem;*/
+}
+img#spanish{
+    width:48px;
+    height:48px;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding-top: .25rem;*/
+}
+img#english{
+    width:48px;
+    height:48px;
+    margin:0;
+    padding:0;
+    margin-top:-.5rem;
+    /*margin-right:auto;*/
+    /*padding-bottom: .25rem;*/
+
+}
+img#day{
+    width:48px;
+    height:48px;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align: middle!important;
+    /*padding-top: .35rem;*/
+
+}
+img#night{
+    width:48px;
+    height:48px;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding-top: .35rem;*/
+    vertical-align: middle!important;
+}
+div#english-button{
+    position:relative;
+    /*top:.15rem;*/
+    display:none;
+    height:55px!important;
+    line-height: 55px!important;
+    vertical-align: middle!important;
+}
+div#spanish-button{
+    vertical-align: middle!important;
+}
+h4{
+    line-height: 55px !important;
+    margin-top:0;
+    font-size:2.5em;
+}
+div#day-button{
+    display:none;
+}
+.short-text{
+    display:inline-block;
+}
+@media (min-width: 1200px) {
+    .full-text { display: inline-block; }
+    .short-text { display: none; }
+}
+h5.card-title{
+    /*padding-left:2rem;*/
+}
+div.card-body{
+    padding-left:2rem;
+    background-color:#DDDDDD
+}
+.clickable{
+    color: dodgerblue;
+    text-decoration: underline;
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    font-size: large;
+}
+p{
+    margin-top:0;
+}
+h5#projects-title{
+    text-align: right;
+    padding-right:2rem;
+}

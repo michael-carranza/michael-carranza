@@ -21,7 +21,7 @@ function spanish() {
     subheading.style.fontSize = "2.2rem";
     if (width >=1200) {
         subheading.innerText = "Soy un escritor/desarrollador web.";
-    } else subheading.innerText = "Escritor/Desarrollador Web";
+    } else subheading.innerText = "Escritor/Desarrollador";
 
     aboutTab.innerText = "Acerca";
     projectsTab.innerText = "Mis Proyectos";

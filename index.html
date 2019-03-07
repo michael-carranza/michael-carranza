@@ -24,19 +24,19 @@
                         <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
                             <li class="nav-item">
                                 <div class="card-panel red col s6 m6 l3" id="about-panel">
-                                    <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">
+                                    <a class="nav-link active" id="about-tab" data-toggle="tab" onclick="aboutMe()" role="tab" aria-controls="about" aria-selected="true">
                                         About Me</a></div></li>
                             <li class="nav-item">
                                 <div class="card-panel red col s6 m6 l3"id="projects-panel">
-                                    <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="false">
+                                    <a class="nav-link" id="projects-tab" data-toggle="tab" onclick="projects()" role="tab" aria-controls="projects" aria-selected="false">
                                         My Projects</a></div></li>
                             <li class="nav-item">
                                 <div class="card-panel red col s6 m6 l3" id="writing-panel">
-                                    <a class="nav-link" id="writing-tab" data-toggle="tab" href="#writing" role="tab" aria-controls="writing" aria-selected="false">
+                                    <a class="nav-link" id="writing-tab" data-toggle="tab" onclick="writing()" role="tab" aria-controls="writing" aria-selected="false">
                                         Writing</a></div></li>
                             <li class="nav-item">
                                 <div class="card-panel red col s6 m6 l3"id="contact-panel">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" onclick="contact()" role="tab" aria-controls="contact" aria-selected="false">
                                         Contact Me</a></div></li>
                         </ul>
                     </div>
@@ -57,8 +57,8 @@
                     </div>
 
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-                            <div class="card">
+                        <div class="tab-pane fade show active" role="tabpanel" aria-labelledby="about-tab">
+                            <div class="card" id="about">
                                 <div class="card-body">
                                     <h5 class="card-title"> About Me</h5>
                                     <img id="headshot" alt ="headshot.jpeg" src="img/headshot.jpeg"/>
@@ -69,8 +69,8 @@
                                 </div>
                             </div>
                         </div>
-                            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
-                                <div class="card">
+                            <div class="tab-pane fade" role="tabpanel" aria-labelledby="projects-tab">
+                                <div class="card"id="projects">
                                     <div class="card-body">
                                         <h5 class="card-title" id="projects-title"> My Projects</h5>
                                        <ul>
@@ -84,8 +84,8 @@
                                     </div>
                                 </div>
                             </div>
-                        <div class="tab-pane fade" id="writing" role="tabpanel" aria-labelledby="writing-tab">
-                            <div class="card">
+                        <div class="tab-pane fade" role="tabpanel" aria-labelledby="writing-tab">
+                            <div class="card" id="writing">
                                 <div class="card-body">
                                     <h5 class="card-title"> My Writing</h5>
                                     <ul>
@@ -98,8 +98,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                            <div class="card">
+                        <div class="tab-pane fade"  role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="card" id="contact">
                                 <div class="card-body">
                                     <h5 class="card-title"> Contact Me</h5><br>
                                     <ul>

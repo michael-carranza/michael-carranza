@@ -166,3 +166,12 @@ h5#projects-title{
     text-align: right;
     padding-right:2rem;
 }
+#projects{
+    display:none;
+}
+#writing{
+    display:none;
+}
+#contact{
+    display:none;
+}

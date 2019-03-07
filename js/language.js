@@ -159,3 +159,44 @@ function day(){
         bodies[2].style.backgroundColor="#DDDDDD";
         bodies[3].style.backgroundColor="#DDDDDD";
 }
+
+function aboutMe(){
+    var aboutTab = document.getElementById("about");
+    var projectsTab = document.getElementById("projects");
+    var writingTab = document.getElementById("writing");
+    var contactTab = document.getElementById("contact");
+    aboutTab.style.display = 'inline';
+    projectsTab.style.display = 'none';
+    writingTab.style.display ='none';
+    contactTab.style.display ='none';
+}
+function projects(){
+    var aboutTab = document.getElementById("about");
+    var projectsTab = document.getElementById("projects");
+    var writingTab = document.getElementById("writing");
+    var contactTab = document.getElementById("contact");
+    aboutTab.style.display = 'none';
+    projectsTab.style.display = 'inline';
+    writingTab.style.display ='none';
+    contactTab.style.display ='none';
+}
+function writing(){
+    var aboutTab = document.getElementById("about");
+    var projectsTab = document.getElementById("projects");
+    var writingTab = document.getElementById("writing");
+    var contactTab = document.getElementById("contact");
+    aboutTab.style.display = 'none';
+    projectsTab.style.display = 'none';
+    writingTab.style.display ='inline';
+    contactTab.style.display ='none';
+}
+function contact(){
+    var aboutTab = document.getElementById("about");
+    var projectsTab = document.getElementById("projects");
+    var writingTab = document.getElementById("writing");
+    var contactTab = document.getElementById("contact");
+    aboutTab.style.display = 'none';
+    projectsTab.style.display = 'none';
+    writingTab.style.display ='none';
+    contactTab.style.display ='inline';
+}

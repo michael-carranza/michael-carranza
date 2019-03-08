@@ -45,7 +45,9 @@ nav > span{
 img#headshot{
     float:left;
     width:25%;
+    max-width:150px;
     height:25%;
+    max-height:140px;
     margin-right: 2rem;
     /*padding-left:2rem;*/
 }

@@ -78,7 +78,7 @@ a{
 }
 div.cardpanel{
     margin-bottom:0;
-    vertical-align: middle!important;
+    /*vertical-align: middle!important;*/
 }
 div.row{
     margin-bottom: 0;

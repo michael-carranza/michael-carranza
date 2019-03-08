@@ -59,6 +59,11 @@ function spanish() {
     nightButton.classList.remove("blue");
     nightButton.style.height = "55px";
     nightButton.style.paddingTop = ".25rem";
+    day.style.removeProperty('vertical-align');
+    day.style.removeProperty('margin-top');
+    night.style.removeProperty('margin-top');
+    night.style.removeProperty('vertical-align');
+
 
     spanishButton.style.display = "none";
     englishButton.style.display = "inline";
@@ -80,6 +85,8 @@ function english() {
     var englishButton = document.getElementById('english-button');
     var dayButton = document.getElementById('day-button');
     var nightButton = document.getElementById('night-button');
+    var day = document.getElementById('day');
+    var night = document.getElementById('night');
 
     heading.innerText = "My name is Michael Carranza.";
     heading.style.fontSize = "4.2rem";
@@ -125,6 +132,8 @@ function english() {
     nightButton.style.height = "55px";
     nightButton.style.lineHeight = "55px";
     nightButton.style.paddingTop = ".25rem";
+    day.style.removeProperty('vertical-align');
+    night.style.removeProperty('vertical-align');
 
     englishButton.style.display = "none";
     spanishButton.style.display = "inline";
@@ -140,7 +149,6 @@ function night(){
         body.style.backgroundColor = "black";
         heading.style.color = "white";
         dayButton.style.display = "inline";
-
         nightButton.style.display = "none";
         bodies[0].style.backgroundColor="lightgray";
         bodies[1].style.backgroundColor="lightgray";
@@ -155,6 +163,7 @@ function day(){
     var dayButton = document.getElementById("day-button");
     var bodies = document.getElementsByClassName("card-body");
     var night = document.getElementById('night');
+    var day = document.getElementById('day');
         body.style.backgroundColor = "white";
         heading.style.color = "black";
         nightButton.style.display = "inline";

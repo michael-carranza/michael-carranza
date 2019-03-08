@@ -14,6 +14,8 @@ function spanish() {
     var englishButton = document.getElementById('english-button');
     var dayButton = document.getElementById('day-button');
     var nightButton = document.getElementById('night-button');
+    var day = document.getElementById('day');
+    var night = document.getElementById('night');
 
     heading.style.fontSize = "4rem";
     heading.innerText = "Mi nombre es Michael Carranza.";
@@ -134,9 +136,11 @@ function night(){
     var nightButton = document.getElementById("night-button");
     var dayButton = document.getElementById("day-button");
     var bodies = document.getElementsByClassName("card-body");
+    var day = document.getElementById('day');
         body.style.backgroundColor = "black";
         heading.style.color = "white";
         dayButton.style.display = "inline";
+
         nightButton.style.display = "none";
         bodies[0].style.backgroundColor="lightgray";
         bodies[1].style.backgroundColor="lightgray";
@@ -150,10 +154,12 @@ function day(){
     var nightButton = document.getElementById("night-button");
     var dayButton = document.getElementById("day-button");
     var bodies = document.getElementsByClassName("card-body");
+    var night = document.getElementById('night');
         body.style.backgroundColor = "white";
         heading.style.color = "black";
         nightButton.style.display = "inline";
         dayButton.style.display = "none";
+        day.style.marginTop = "-0.5rem";
         bodies[0].style.backgroundColor="#DDDDDD";
         bodies[1].style.backgroundColor="#DDDDDD";
         bodies[2].style.backgroundColor="#DDDDDD";
